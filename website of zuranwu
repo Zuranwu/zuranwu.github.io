@@ -1,0 +1,81 @@
+<!DOCTYPE html>  
+<html lang="zh-CN">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>自我介绍</title>  
+    <style>  
+        body {  
+            font-family: Arial, sans-serif;  
+            margin: 0;  
+            padding: 0;  
+            background-color: #f4f4f4;  
+        }  
+        header {  
+            background-color: #333;  
+            color: white;  
+            padding: 1rem 0;  
+            text-align: center;  
+        }  
+        .container {  
+            padding: 2rem;  
+            max-width: 800px;  
+            margin: 0 auto;  
+            background-color: white;  
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
+        }  
+        h1 {  
+            color: #333;  
+        }  
+        p {  
+            line-height: 1.6;  
+        }  
+        .skills, .interests {  
+            margin-top: 2rem;  
+        }  
+        .skills h2, .interests h2 {  
+            color: #555;  
+        }  
+        .skills ul, .interests ul {  
+            list-style-type: none;  
+            padding: 0;  
+        }  
+        .skills li, .interests li {  
+            background: url('check-mark.png') no-repeat left center; /* 你可以替换为你自己的打勾图标 */  
+            background-size: 20px 20px;  
+            padding-left: 30px;  
+            margin-bottom: 0.5rem;  
+        }  
+    </style>  
+</head>  
+<body>  
+    <header>  
+        <h1>欢迎来到我的个人网站</h1>  
+    </header>  
+    <div class="container">  
+        <h1>自我介绍</h1>  
+        <p>你好！我是一名热爱编程的开发者，擅长使用Python进行高效、有效的代码开发。我热衷于从数据中挖掘价值，尤其擅长处理和分析Excel文件中的数据。</p>  
+        <p>除了编程，我还喜欢探索新的技术趋势，保持对新技术的好奇心和学习热情。我相信，技术不仅仅是工具，更是改变世界的力量。</p>  
+  
+        <div class="skills">  
+            <h2>我的编程技能</h2>  
+            <ul>  
+                <li>熟练掌握Python编程语言</li>  
+                <li>熟悉数据处理和分析，特别是Excel文件的读写操作</li>  
+                <li>了解Web开发基础，包括HTML、CSS和JavaScript</li>  
+                <li>具备良好的问题解决能力和逻辑思维能力</li>  
+            </ul>  
+        </div>  
+  
+        <div class="interests">  
+            <h2>我的兴趣爱好</h2>  
+            <ul>  
+                <li>阅读技术博客和书籍，了解最新的技术动态</li>  
+                <li>参加编程社区和论坛，与同行交流学习心得</li>  
+                <li>喜欢户外运动，如徒步、骑行和游泳</li>  
+                <li>热爱音乐，喜欢弹吉他和唱歌</li>  
+            </ul>  
+        </div>  
+    </div>  
+</body>  
+</html>
